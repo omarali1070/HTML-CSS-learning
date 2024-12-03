@@ -9,7 +9,9 @@
   <body>
     <header>
       <nav>
-        <a href="./index.html"><img src="assets/images/css-code.png" alt="computer" /></a>
+        <a href="./index.html"
+          ><img src="assets/images/css-code.png" alt="computer"
+        /></a>
         <ul class="nav-list">
           <li><a href="./CSS-learning.html">Learning CSS</a></li>
           <li><a href="./JS-learning.html">Learning JavaScript</a></li>
@@ -21,27 +23,28 @@
       <h2>Here is what i have learnt so far</h2>
       <section>
         <article class="card">
-          <img src="assets/images/playground.jpg" alt="playground"  />
+          <img src="assets/images/playground.jpg" alt="playground" />
           <div>
             <h3>Images</h3>
             <p>
               In HTML, images are embedded using the img tag, which requires the
-              src attribute to define the images file path. Additionally, the alt
-              attribute provides a text description of the image for accessibility
-              purposes, ensuring that visually impaired users can understand the
-              content. CSS can be used to style images, including controlling
-              their size, positioning, and borders. For example, properties like
-              width, height, and border-radius can make images responsive and
-              visually appealing. To make images responsive, CSS properties such
-              as max-width: 100% can be applied, ensuring the image scales
-              according to the container's size without distorting its aspect
-              ratio. This is particularly useful in responsive web design, where
-              images need to adapt to different screen sizes and devices.
+              src attribute to define the images file path. Additionally, the
+              alt attribute provides a text description of the image for
+              accessibility purposes, ensuring that visually impaired users can
+              understand the content. CSS can be used to style images, including
+              controlling their size, positioning, and borders. For example,
+              properties like width, height, and border-radius can make images
+              responsive and visually appealing. To make images responsive, CSS
+              properties such as max-width: 100% can be applied, ensuring the
+              image scales according to the container's size without distorting
+              its aspect ratio. This is particularly useful in responsive web
+              design, where images need to adapt to different screen sizes and
+              devices.
             </p>
           </div>
         </article>
         <article class="card">
-          <table >
+          <table>
             <tr>
               <th>Club</th>
               <th>MP</th>
@@ -68,26 +71,30 @@
               <th>14</th>
             </tr>
           </table>
-          <p>
-            In HTML, tables are created using the table element, with rows
-            defined by tr (table row) and columns within those rows specified by
-            td (table data). The th element is used for header cells, which are
-            typically bold and centered by default. CSS plays a crucial role in
-            styling tables, enabling customization of borders, spacing, text
-            alignment, and colors. For instance, the border-collapse property
-            can be used to make table borders collapse into a single border,
-            creating a cleaner look. Additionally, CSS can help improve table
-            readability by alternating row colors with the :nth-child selector
-            or by adjusting the width and height of columns using the width and
-            height properties. Tables are also made more responsive using
-            techniques such as max-width: 100% to ensure they fit within the
-            available space on different devices, especially when viewed on
-            smaller screens.
-          </p>
+          <div>
+            <h3>Tables</h3>
+            <p>
+              In HTML, tables are created using the table element, with rows
+              defined by tr (table row) and columns within those rows specified
+              by td (table data). The th element is used for header cells, which
+              are typically bold and centered by default. CSS plays a crucial
+              role in styling tables, enabling customization of borders,
+              spacing, text alignment, and colors. For instance, the
+              border-collapse property can be used to make table borders
+              collapse into a single border, creating a cleaner look.
+              Additionally, CSS can help improve table readability by
+              alternating row colors with the :nth-child selector or by
+              adjusting the width and height of columns using the width and
+              height properties. Tables are also made more responsive using
+              techniques such as max-width: 100% to ensure they fit within the
+              available space on different devices, especially when viewed on
+              smaller screens.
+            </p>
+          </div>
         </article>
         <h3>Sign up to my site pls!</h3>
         <article class="card">
-          <form >
+          <form>
             <div>
               <label for="fname">First Name</label>
               <input
@@ -111,47 +118,54 @@
             </div>
             <br />
             <div>
-              <input type="submit"  />
+              <input type="submit" />
             </div>
           </form>
-          <p>
-            In HTML, forms are created using the form element, which contains
-            various input fields that allow users to submit data. Common form
-            elements include input, textarea, select, and button. Each input
-            field is associated with a name attribute, which is used to identify
-            the data when the form is submitted. The action attribute specifies
-            the destination URL where the form data will be sent, and the method
-            attribute determines how the data is sent (e.g., GET or POST). CSS
-            is essential for styling forms, ensuring they are visually appealing
-            and user-friendly. Properties like padding, margin, and border can
-            be applied to input fields to make them more comfortable to interact
-            with. CSS can also help with layout, positioning, and customizing
-            the appearance of buttons and labels. To make forms more accessible
-            and responsive, media queries and flexible grid systems can be used,
-            ensuring the form adapts to different screen sizes and remains easy
-            to navigate on any device.
-          </p>
+          <div>
+            <h3>Forms</h3>
+            <p>
+              In HTML, forms are created using the form element, which contains
+              various input fields that allow users to submit data. Common form
+              elements include input, textarea, select, and button. Each input
+              field is associated with a name attribute, which is used to
+              identify the data when the form is submitted. The action attribute
+              specifies the destination URL where the form data will be sent,
+              and the method attribute determines how the data is sent (e.g.,
+              GET or POST). CSS is essential for styling forms, ensuring they
+              are visually appealing and user-friendly. Properties like padding,
+              margin, and border can be applied to input fields to make them
+              more comfortable to interact with. CSS can also help with layout,
+              positioning, and customizing the appearance of buttons and labels.
+              To make forms more accessible and responsive, media queries and
+              flexible grid systems can be used, ensuring the form adapts to
+              different screen sizes and remains easy to navigate on any device.
+            </p>
+          </div>
         </article>
 
         <article class="card">
-         <div>
-          <div class="circle" id="round"></div>
-         </div>          
-         <p>
-            To create a circle using HTML and CSS, I used a div element, which
-            is a block-level container. By applying CSS, I transformed this div
-            into a circle. First, I set the width and height properties to equal
-            values (e.g., 100px by 100px) to ensure the shape is perfectly
-            round. The border-radius property was then set to 50%, which rounds
-            the corners of the div, turning it into a circle. To center the
-            circle on the page, I used a combination of CSS properties. One
-            common approach is to set the containers display property to flex
-            and use justify-content: center and align-items: center to
-            horizontally and vertically center the circle within the parent
-            container. Additionally, I applied height: 100vh to the parent
-            container to ensure it occupies the full height of the viewport,
-            making the circle stay centered regardless of the screen size.
-          </p>
+          <div>
+            <div class="circle" id="round"></div>
+          </div>
+          <div>
+            <h3>Centering Elements</h3>
+            <p>
+              To create a circle using HTML and CSS, I used a div element, which
+              is a block-level container. By applying CSS, I transformed this
+              div into a circle. First, I set the width and height properties to
+              equal values (e.g., 100px by 100px) to ensure the shape is
+              perfectly round. The border-radius property was then set to 50%,
+              which rounds the corners of the div, turning it into a circle. To
+              center the circle on the page, I used a combination of CSS
+              properties. One common approach is to set the containers display
+              property to flex and use justify-content: center and align-items:
+              center to horizontally and vertically center the circle within the
+              parent container. Additionally, I applied height: 100vh to the
+              parent container to ensure it occupies the full height of the
+              viewport, making the circle stay centered regardless of the screen
+              size.
+            </p>
+          </div>
         </article>
       </section>
     </main>

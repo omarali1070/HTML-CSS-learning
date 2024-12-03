@@ -44,7 +44,7 @@ h2 {
   text-align: center;
   color: rgb(243, 96, 5);
 }
-.card * {
+.card > * {
   max-width: calc(50% - 1.5rem);
   flex-grow: 1;
 }
