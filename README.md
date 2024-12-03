@@ -15,7 +15,7 @@ How to View the Project
 Clone the repository:
 bash
 Copy code
-git clone 
+git clone https://github.com/omarali1070/HTML-CSS-learning.git.
 Open index.html in a web browser.
 What I Learned
 Creating structured web pages using semantic HTML.
